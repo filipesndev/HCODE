@@ -1,0 +1,589 @@
+@font-face {
+    font-family: open-sans;
+    src: url(../fontes/OpenSans-SemiBold.ttf);
+    font-size: 1em;
+}
+
+@font-face {
+    font-family: open-sans-lite;
+    src: url(../fontes/OpenSans-Light.ttf);
+    font-size: 1em;
+}
+
+
+
+
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(94, 41, 154, .9);
+    position: relative;
+    z-index: 8;
+}
+
+header .container {
+    position: relative;
+}
+
+header .header-black{
+    background-color: black;
+    height: 40px;
+}
+
+header .header-black li {
+    background-image: url("../img/clubes.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 4px 8px;
+    margin-left: 0px;
+}
+
+header .header-black li.clube-01 {
+    background-position: 0px 0px;
+}
+
+header .header-black li.clube-02 {
+    background-position: -48px 0px;
+}
+
+header .header-black li.clube-03 {
+    background-position: -95px 0px;
+}
+
+header .header-black li.clube-04 {
+    background-position: -140px 0px;
+}
+
+header .header-black li.clube-05 {
+    background-position: -189px 0px;
+}
+
+header .header-black li.clube-06 {
+    background-position: -238px 0px;
+}
+
+header .header-black li.clube-07 {
+    background-position: -288px 0px;
+}
+
+header .header-black li.clube-08 {
+    background-position: -337px 0px;
+}
+
+header .header-black li.clube-09 {
+    background-position: -381px 0px;
+}
+
+header .header-black li.clube-10 {
+    background-position: -430px 0px;
+}
+
+header .header-black li.clube-11 {
+    background-position: -480px 0px;
+}
+
+header .header-black li.clube-12 {
+    background-position: -528px 0px;
+}
+
+header .header-black li.clube-13 {
+    background-position: -578px 0px;
+}
+
+header .header-black li.clube-14 {
+    background-position: -628px 0px;
+}
+
+header .header-black li.clube-15 {
+    background-position: -675px 0px;
+}
+
+header .header-black li.clube-16 {
+    background-position: -720px 0px;
+}
+
+header .header-black li.clube-17 {
+    background-position: -765px 0px;
+}
+
+header .header-black li.clube-18 {
+    background-position: -808px 0px;
+}
+
+header .header-black li.clube-19 {
+    background-position: -856px 0px;
+}
+
+header .header-black li.clube-20 {
+    background-position: -905px 0px;
+}
+
+header .header-black li.clube-21 {
+    background-position: -949px 0px;
+}
+
+header .header-black li.clube-22 {
+    background-position: -995px 0px;
+}
+
+header .header-black li a {
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+
+header #logositeorlando {
+    position: absolute;
+    top: 20px;
+    z-index: 9;
+}
+
+#menu {
+    position: absolute;
+    right: 0;
+    margin: 36px 0;
+}
+
+#menu li {
+    display: inline-block;
+    font-family: open-sans;  
+}
+
+#menu li a {
+    font-size: 16px;
+    color: white;
+    padding: 10px 25px;
+}
+
+#menu li.search input{
+    background-color: #5c2d90;
+    color: white;
+    border: none;
+}
+
+#menu li.search input ::-webkit-input-placeholder {
+    color: white;
+}
+
+#menu li.search button {
+    border: none;
+    background-color: #5c2d90;
+}
+
+#lupa {
+    color: white;
+}
+
+#banner {
+    width: 100%;
+    height: 728px;
+    position: relative;
+    background: url("../img/bola.jpg") no-repeat;
+    top: -110px;
+    background-position: 0px -113px;
+}
+
+#banner h1{
+    font-family: open-sans-lite;
+    font-size: 92px;
+    top: 300px;
+    color: white;
+    position: relative;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 45);
+    margin-left: 30px;
+}
+
+#banner h1 small{
+    font-size: 32px;
+    display: block;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 45);
+    font-weight: bold;
+}
+
+#news{
+    position: relative;
+    top: -110px;
+}
+
+#news h2{
+    color: #5e2799;
+    font-family: open-sans-lite;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#news hr{
+    border: #fde192 solid 2px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#news h3{
+    color: #5e2799;
+    font-size: 18px;
+    font-family: open-sans;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+
+}
+
+#news h3 a{
+    color: #5e2799;
+}
+
+#news time{
+    font-family: open-sans;
+    color: gray;
+}
+
+#new .tumbnails .item-inner{
+    padding: 10px;
+}
+
+#new .tumbnails .item-inner img{
+    width: 100%;
+}
+
+#colunaimg{
+    position: relative;
+    top: 30px;
+}
+
+#estatisticas{
+    background-color: #5c2d90;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    height: 200px;
+    position: relative;
+}
+
+#textoestatisticas{
+    top: 21px;
+    right: 23px;
+    position: absolute;
+    width: 100%;
+}
+
+#estatisticas p{
+    color: #fde092;
+    font-family: open-sans-lite;
+    font-size: 64px;
+}
+
+#estatisticas small{
+    color: white;
+    display: block;
+    font-size: 32px;
+}
+
+#propaganda{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    font-family: open-sans-lite;
+}
+
+#propaganda h2{
+    color: #5e2799;
+    font-family: open-sans-lite;
+    font-size: 48px;
+    text-align: center;
+    width: 100%;
+}
+
+#propaganda hr{
+    border: #fde192 solid 4px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#propaganda p{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#propaganda .row-max-400{
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#propaganda a{
+    color: white;
+}
+
+.btn-roxo{
+    min-width: 164px;
+    height: 44px;
+    line-height: 34px;
+    border-radius: 0;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #fff;
+    background-color: #5e2799;
+    border-color: #5e2799;
+    margin-right: 35px;
+}
+
+.btn-amarelo{
+    min-width: 164px;
+    height: 44px;
+    line-height: 34px;
+    border-radius: 0;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #fff;
+    background-color: #fde192;
+    border-color: #fde192;
+    margin-left: 35px;
+}
+
+footer{
+    margin-top: 110px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+footer .row{
+    width: 100%;
+    margin-right: 0px;
+}
+
+footer .row-cinza-claro{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 200px;
+    background-color: #171f26;
+}
+
+footer .row-cinza-escuro{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: #11171d;
+    border-top: black 1px solid;
+    border-width: 100%;
+}
+
+#p1p2{
+    position: relative;
+}
+
+#footerp1{
+    color: gray;
+    font-family: open-sans;
+    display: inline;
+    font-size: 14px;
+    position: absolute;
+    top: 19px;
+}
+
+#footerp2{
+    color: #5e2799;
+    font-family: open-sans;
+    display: inline;
+    right: 0px;
+    font-size: 14px;
+    position: absolute;
+    top: 19px;
+    right: 14px;
+}
+
+footer #logobaixo{
+    margin-top: 27px;
+}
+
+#col-popular-posts, #col-links, #col-get-in-touch{
+    margin-top: 35px;
+}
+
+footer h4{
+    font-family: open-sans;
+    font-size: 16px;
+    color: white;
+    padding-bottom: 17px;
+    border-bottom: gray 1px solid;
+}
+
+footer h5{
+    color: #666;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+footer time{
+    color: #fde092;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+footer #col-links a{
+    color: gray;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+footer #col-links a i{
+    margin: 0 6px;
+}
+
+footer #col-get-in-touch address{
+    color: gray;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+footer #col-get-in-touch address span{
+    display: inline-block;
+}
+
+footer #col-get-in-touch address i{
+    position: relative;
+    top: 3px;
+}
+
+footer #col-get-in-touch address p{
+    line-height: 50px;
+    color: gray;
+}
+
+footer #col-get-in-touch address i{
+    color: gray;
+    font-size: 20px;
+    margin: 0 6px;
+}
+
+footer #col-get-in-touch address a{
+    color: gray;
+}
+
+footer .listsocials i{
+    color: gray;
+    font-size: 18px;
+    margin: 7px auto;
+    top: 128px;
+    position: absolute;
+}
+
+footer .listsocials{
+    margin-top: 7px;
+}
+
+footer .listsocials li{
+    display: inline;
+}
+
+footer .listsocials a{
+    display: inline-block;
+    border: gray 1px solid;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 14px;
+    text-align: center;
+    margin-top: -10px;
+    position: relative;
+    z-index: 100;
+}
+
+footer .listsocials i{
+    font-size: 16px;
+    margin: 7px auto;
+    top: 128px;
+    position: absolute;
+}
+
+#faceicon{
+    right: 265px;
+    top: 122px;
+}
+
+#twiticon{
+    right: 228px;
+    top: 122px;
+}
+
+#instaicon{
+    right: 198px;
+    top: 122px;
+}
+
+#pinicon{
+    right: 166px;
+    top: 122px;
+}
+
+section #banner h1.efeito{
+    color: red;
+    font-size: 12em;
+    transition: 1s;
+}
+
+#videossite h2{
+    color: #5e2799;
+    font-family: open-sans-lite;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#videossite hr{
+    border: #fde192 solid 2px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#videossite h3{
+    color: #5e2799;
+    font-size: 18px;
+    font-family: open-sans;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+
+}
+
+#videossite{
+    position: relative;
+    top: 110px;
+}
