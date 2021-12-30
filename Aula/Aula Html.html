@@ -1,0 +1,94 @@
+<!DOCKTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Teste Site</title>
+            <link rel="stylesheet" href="estilo.css">
+            <link rel="stylesheet" href="Reset.css">
+            <link rel="stylesheet" href="bootstrap.css">
+        </head>
+        <body>
+           
+            <header> <nav></nav> </header>
+            
+            <form id="cadastrarconta" method="POST" action="form.php">
+                
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" class="form-control" placeholder="Digite seu nome!" required autofocus tabindex="1">
+                </div>                   
+                
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" name="email" class="form-control" placeholder="seu@email.com" required tabindex="2">
+                </div>
+                
+                <div class="form-group">
+                    <label for="nascimento">Nascimento</label>
+                    <input type="date" id="nascimento" name="nascimento" class="form-control" required min="2000-01-01" max="2025-12-31" tabindex="3">
+                </div>
+                
+                <div class="form-group">
+                    <label>Sexo</label>
+                    <input type="radio" id="masculino" name="sexo">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="feminino" name="sexo">
+                    <label for="feminino">Feminino</label>
+                </div>
+
+                <div class="form-group">
+                    <label for="li">Li e aceito os <a href="termos">termos</a>.</label>
+                    <input type="checkbox" id="li" name="li" checked required>
+                </div>
+
+                <div class="form-group">
+                    <label for="ano">Ano de fabricação</label>
+                    <input type="number" id="ano" name="ano" class="form-control" min="1980" step="10" max="2020">
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" cols="100" rows="10" placeholder="Digite sua mensagem."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="estado">Estado</label>
+                    <select name="estados" id="estado">
+                        <optgroup label="Sudeste">
+                            <option value="PI">Piauí</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="CE">Ceará</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" list="navegador">
+                    <datalist id="navegador">
+                        <option value="chome">
+                        <option value="opera">
+                        <option value="firefox">
+                    </datalist>
+                </div>
+                
+                <div>
+                    <button type="submit" class="btn btn-primary">Cadastrar</button>
+                </div>
+            
+            </form>
+            
+            <section>
+                    
+                    <input type="number" id="ValorA">
+                    <input type="number" id="ValorB">
+                    <button id="Calcular">Calcular</button>
+                    <div class="Resultado"></div>
+                    
+            </section>
+
+            <footer></footer>
+            
+            <script type="text/javascript" src="js/script.js"></script>
+        </body>
+    </html>
